@@ -1,0 +1,33 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\Vidor\LA+\VidorFPGA-master\projects\MKRVIDOR4000_template\gla.qsys --block-symbol-file --output-directory=D:\Vidor\LA+\VidorFPGA-master\projects\MKRVIDOR4000_template\gla --family="Cyclone 10 LP" --part=10CL016YU256C8G
+Progress: Loading MKRVIDOR4000_template/gla.qsys
+Progress: Reading input file
+Progress: Adding altclkctrl_0 [altclkctrl 22.1]
+Progress: Parameterizing module altclkctrl_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+: gla.altclkctrl_0: Targeting device family: Cyclone 10 LP.
+: gla.altclkctrl_0: Global clock network allows a clock signal to reach all parts of the chip with the same amount of skew. Input port 'clkselect' can be used to switch between four clock inputs.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\Vidor\LA+\VidorFPGA-master\projects\MKRVIDOR4000_template\gla.qsys --synthesis=VERILOG --output-directory=D:\Vidor\LA+\VidorFPGA-master\projects\MKRVIDOR4000_template\gla\synthesis --family="Cyclone 10 LP" --part=10CL016YU256C8G
+Progress: Loading MKRVIDOR4000_template/gla.qsys
+Progress: Reading input file
+Progress: Adding altclkctrl_0 [altclkctrl 22.1]
+Progress: Parameterizing module altclkctrl_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+: gla.altclkctrl_0: Targeting device family: Cyclone 10 LP.
+: gla.altclkctrl_0: Global clock network allows a clock signal to reach all parts of the chip with the same amount of skew. Input port 'clkselect' can be used to switch between four clock inputs.
+Info: gla: Generating gla "gla" for QUARTUS_SYNTH
+Info: altclkctrl_0: Generating top-level entity gla_altclkctrl_0.
+Info: altclkctrl_0: "gla" instantiated altclkctrl "altclkctrl_0"
+Info: gla: Done "gla" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
